@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
+import {Header} from "./header/Header";
+import Pages from "./routes/pages";
+import {HashRouter} from "react-router-dom";
 
 const App = () => {
   return (
     <div className="App">
-      {/*hr,prov*/}
-      <>
-        {/*<Header/>*/}
-        app
-      </>
+      <HashRouter>
+        <Header/>
+        <Pages/>
+      </HashRouter>
     </div>
   );
 }
 
-export default App;
+export default App

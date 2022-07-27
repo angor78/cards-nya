@@ -1,0 +1,16 @@
+input{
+    outline: none;
+}
+.superInput {
+    border: 1px solid darkgreen;
+    background-color: whitesmoke;
+}
+
+.errorInput {
+    border: 1px solid brown;
+    background-color: rgb(139, 0, 0, 0.2);
+}
+
+.error {
+    color: brown;
+}
